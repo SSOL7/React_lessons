@@ -36,13 +36,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <MAIN_CLASS />
         <Header taming={taming} />
         <Lita lita={lita} />
         <Albeau albeau={albeau} />
         <br />
         <br />
       </header>
-        <MAIN_CLASS /> 
     </div>
   );
 }
